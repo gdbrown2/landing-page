@@ -1,8 +1,9 @@
 body {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    min-width: 100vh;
+    min-height: 100vh;
     
     
 }
@@ -102,4 +103,69 @@ button {
     color: #1f2937;
     font-weight: 900;
     margin-bottom: 60px;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-top: 250px;
+    width:800px;
+    margin:auto
+}
+
+.quotext {
+    font-size: 36px;
+    font-style:italic;
+    color:#1f2937;
+    font-weight: lighter;
+}
+
+.quoname {
+    background-color: #e5e7eb;
+    font-weight: 900;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+    width: 1000px;
+    background-color: #3882f6;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
+.call {
+    font-weight: 900;
+    color: #f9faf8;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.actiona {
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.b2 {
+    border: #f9faf8 solid;
+display: flex;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    
 }
